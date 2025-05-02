@@ -8,23 +8,24 @@ A fun and simple terminal-based digital clock written in Go that displays the cu
 
 ## ✨ Features
 
-- Displays current system time in HH:MM:SS format
-- ASCII art styled like a 7-segment digital clock
-- Blinking colons every second for a classic look
-- Refreshes every second
-- Terminal screen clearing and top-left cursor reset for smooth display
+- Displays the current system time in **HH:MM:SS** format.
+- Uses ASCII art styled like a retro 7-segment digital clock.
+- Blinking colons every second for a nostalgic, classic look.
+- Automatically refreshes every second.
+- Clears the terminal screen and resets the cursor position to the top-left for smooth display.
 
 ---
 
 ## 📦 Requirements
 
-- Go 1.18 or newer
-- Terminal that supports ANSI escape sequences (most do)
+- Go **1.18** or newer.
+- A terminal that supports ANSI escape sequences (most modern terminals do).
 
 ---
 
 ## 🚀 How to Run
 
-1. Clone the repository:
+1. **Clone the repository**:
    ```bash
-   go run main.go
+   git clone https://github.com/your-username/retro-clock-go.git
+   cd retro-clock-go
