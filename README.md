@@ -27,5 +27,4 @@ A fun and simple terminal-based digital clock written in Go that displays the cu
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/retro-clock-go.git
-   cd retro-clock-go
+   go run main.go
