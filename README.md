@@ -1,31 +1,15 @@
-# 🕰️ Retro Terminal Clock (Go)
+# Terminal Digital Clock in Go
 
-A fun and simple terminal-based digital clock written in Go that displays the current time using retro 7-segment ASCII art.
+This is a simple terminal-based digital clock written in Go. It displays the current time in a large 7-segment style using ANSI escape codes to clear and update the terminal every second.
 
-![retro-clock-demo](https://user-images.githubusercontent.com/your-image-placeholder.gif) <!-- optional gif/screenshot -->
+## Features
 
----
+- Displays the current system time in **HH:MM:SS** format.
+- Uses Unicode block characters to mimic a digital clock.
+- Blinking colon every two seconds.
+- Refreshes the terminal screen using ANSI escape sequences (no external packages required).
 
-## ✨ Features
+## Requirements
 
-- Displays current system time in HH:MM:SS format
-- ASCII art styled like a 7-segment digital clock
-- Blinking colons every second for a classic look
-- Refreshes every second
-- Terminal screen clearing and top-left cursor reset for smooth display
-
----
-
-## 📦 Requirements
-
-- Go 1.18 or newer
-- Terminal that supports ANSI escape sequences (most do)
-
----
-
-## 🚀 How to Run
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/retro-clock-go.git
-   cd retro-clock-go
+- Go 1.13 or later
+- A terminal that supports ANSI escape sequences (Linux, macOS, Windows Terminal, etc.)
